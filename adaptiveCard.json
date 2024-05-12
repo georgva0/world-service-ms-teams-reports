@@ -1,0 +1,1 @@
+{"$schema":"http://adaptivecards.io/schemas/adaptive-card.json","type":"AdaptiveCard","version":"1.3","body":[{"type":"Container","items":[{"type":"TextBlock","text":"Tags & Tools report | 07-May-2024 20:19 GMT","wrap":true,"spacing":"Large","separator":true,"style":"heading","fontType":"Default","size":"Large","weight":"Bolder","color":"Good","isSubtle":false}]}]}
