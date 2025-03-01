@@ -1,79 +1,79 @@
 const findWebhook = (languageId) => {
   switch (languageId) {
     case "om":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/dd12b8498fbb4e9cb857fb445fbb6707/8e548063-aff9-4922-9770-9df87cf77ac8/V2W423PwtbKA6c5QEbye-EM1fFxc1vT0curkpXXAo3Dr41";
+      return process.env[CERT_OM];
     case "am":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/9a77b88424a046a9b3c17c310462eee1/8e548063-aff9-4922-9770-9df87cf77ac8/V2gcW2wnBDCVT3cWJVI44BU0qfHNlomgLoe1ae7thm_Xk1";
+      return process.env[CERT_AM];
     case "fr":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/c4325b46dc7d483a8d4c561f22b9144d/8e548063-aff9-4922-9770-9df87cf77ac8/V2SMM21H8a29onHyqsssVP_qxGK9BgUWKc0XCubNgItVs1";
+      return process.env[CERT_FR];
     case "ha":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/0b98d60957904bddb90062daa11a75c6/8e548063-aff9-4922-9770-9df87cf77ac8/V2-w9wbJOLjKcS9pa24MsJkZa6PqRdAiyKSfBaXPszmP01";
+      return process.env[CERT_HA];
     case "ig":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/55d98b4035fc410aa2b0cd6fa73b34f0/8e548063-aff9-4922-9770-9df87cf77ac8/V2tL9N-RrfXFcjn2RHHsEEANFwOxwQYo_OiBug-EBAfHE1";
+      return process.env[CERT_IG];
     case "rw":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/fabd55c9c8bd4fe4a8151185bb8e6743/8e548063-aff9-4922-9770-9df87cf77ac8/V2TU0aXII8--5AlcYn7Nfezs0g6PjWVK1T6dbnDYFJ9Zc1";
+      return process.env[CERT_RW];
     case "pcm":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/0b218f155f394214888ae26aa989b247/8e548063-aff9-4922-9770-9df87cf77ac8/V2e_XPh3OHCbou1nCf81q71pQ0Fo1j-_ErzRT79YqXvPs1";
+      return process.env[CERT_PCM];
     case "so":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/39bc0888c5514206bfa202f2c98443b3/8e548063-aff9-4922-9770-9df87cf77ac8/V2V79CVSbg81omGjERIWqWlB2TlrlNf_8oyndBHHSB0Og1";
+      return process.env[CERT_SO];
     case "sw":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/528cd934235f4f0d8251959484516145/8e548063-aff9-4922-9770-9df87cf77ac8/V2uDEWxENGTqsS4TvOd_7Swf2Y_jpd0gUKDd12kymUVJg1";
+      return process.env[CERT_SW];
     case "ti":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/b24893d6730d4bf183744b7af3aae60a/8e548063-aff9-4922-9770-9df87cf77ac8/V24ti8MHbsWc89JeDHcBCon9XTE_gFxOimAl1CjG5LZ3M1";
+      return process.env[CERT_TI];
     case "yo":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/90503c9ffd19422bb61d7d52f7c3271f/8e548063-aff9-4922-9770-9df87cf77ac8/V2KWo3oYzD4agn5HCQhMKH6zXgd-EATKMpZEB6BXsK7p41";
+      return process.env[CERT_YO];
     case "ky":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/a017974d47b84b17850d0865204840ee/8e548063-aff9-4922-9770-9df87cf77ac8/V23g6vsj3Lb-kSeWUW08MClq6gtPx8ikZSEUn8mAaJ3OI1";
+      return process.env[CERT_KY];
     case "my":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/96cfd0ebc3bc4fad8846d1feaed5a809/8e548063-aff9-4922-9770-9df87cf77ac8/V2dDanwFAv45dDfvlhPPJHjrlfIXxLyX_3e2A6gQny98c1";
+      return process.env[CERT_MY];
     case "id":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/8cb24f8695444d7c8ac5df4eb08c2149/8e548063-aff9-4922-9770-9df87cf77ac8/V2t94fBBRCVaYZiZcM6M5Mk593icRwOOBT2BjBJkEbJkU1";
+      return process.env[CERT_ID];
     case "ja":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/a1ea8f6284ce47aeaa6ffe586e177866/8e548063-aff9-4922-9770-9df87cf77ac8/V2s3_GMEvMv8n7jwWpnWklZUpD7IszxGHkXcl4tj47E_I1";
+      return process.env[CERT_JA];
     case "ko":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/6fc6f12b9aef434788cac143d067b875/8e548063-aff9-4922-9770-9df87cf77ac8/V2XL82-mMqRBd_F8KZGIo87fAvo437a4r1jFkCmhR1CCw1";
+      return process.env[CERT_KO];
     case "th":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/6d93f4805bb44bea9d65489c7621764d/8e548063-aff9-4922-9770-9df87cf77ac8/V2kBhlFbppxCqSiW0lDIUPhCSl3am0UG__CdKPlq0Et3U1";
+      return process.env[CERT_TH];
     case "vi":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/7ffec62782c946c68708b370e6820117/8e548063-aff9-4922-9770-9df87cf77ac8/V2xbaDvlFSr6_1toRDzXEnPLRrDHR4mRuPhHyTq9YwYEM1";
+      return process.env[CERT_VI];
     case "bn":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/05895fd73d114dfbb9428ce34be2a863/8e548063-aff9-4922-9770-9df87cf77ac8/V2GoMnhi6a0iUpELm544w-E9HC5kEePqoSZopmbLeF8Gg1";
+      return process.env[CERT_BN];
     case "gu":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/28f45bc8fe8a479eafc4d1d4a1c4e2cb/8e548063-aff9-4922-9770-9df87cf77ac8/V2qug23jh_3OKuI3FDOAV_dNFV4aRKwqNUUYeRvuGr50E1";
+      return process.env[CERT_GU];
     case "hi":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/fb524cc5c1fb4ff48fadea7fc46f779f/8e548063-aff9-4922-9770-9df87cf77ac8/V2BCabe87DVH3HaoV8sYk1hnFh6CWMQV73OpIL4TuPc-I1";
+      return process.env[CERT_HI];
     case "mr":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/292117dbdff34cfb8ac2b2c936f8eb3c/8e548063-aff9-4922-9770-9df87cf77ac8/V2H_Hsxb_UyGHr14Xk2H3xEzXbueF_ac5gDSHNNJzCkTg1";
+      return process.env[CERT_MR];
     case "ne":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/99a296123de248328fd474c788ee6bcb/8e548063-aff9-4922-9770-9df87cf77ac8/V2X_5RsJOm1ZH15-pBaWh7Kx3YkgKU3UVBaucLkWpIaug1";
+      return process.env[CERT_NE];
     case "ps":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/c452874eb6b44146bccd4808db2ba349/8e548063-aff9-4922-9770-9df87cf77ac8/V26hriK6vENNmlSzDpHFFDbsxVYCxF9F2ij80CTWM9gOY1";
+      return process.env[CERT_PS];
     case "pa":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/0ea0c1d223614f18b34ef9a26a03a566/8e548063-aff9-4922-9770-9df87cf77ac8/V23qkaINJL61bLyzvxkcRLbg_fvhHCHSDuQHYmLcWKIKs1";
+      return process.env[CERT_PA];
     case "si":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/fd11d4e2946141bbbc1c9af28fa5f3a2/8e548063-aff9-4922-9770-9df87cf77ac8/V2dGzCq83K5LmLevZROFxNZWs1ATZe90QXoZZlFSpQwFI1";
+      return process.env[CERT_SI];
     case "ta":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/ad7f0e7a81f54e7db20c8a8ae37d19fa/8e548063-aff9-4922-9770-9df87cf77ac8/V2nmKAuhleUstgL5fhQwfyrTA47DR9d1lgLtbHkyhERvs1";
+      return process.env[CERT_TA];
     case "te":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/5f3390b58aab4982a2692014f3bb8384/8e548063-aff9-4922-9770-9df87cf77ac8/V2effO40IePomCFXwAsmOuzpl9Gw1CLtpEjPYWjs5FRi81";
+      return process.env[CERT_TE];
     case "ur":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/e0caf226f1ae4b55aa22b68253d4c810/8e548063-aff9-4922-9770-9df87cf77ac8/V2qJ4dzZuvpTEB0U6f_5xjVSWw6gpY0L-27plFYGDSJGY1";
+      return process.env[CERT_UR];
     case "az":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/a1a1761897e240399614801b64ae1eaf/8e548063-aff9-4922-9770-9df87cf77ac8/V2EJz6fRNOHhkwzUpxcTMgFzWJieC08HYKBkJNdG7mxhE1";
+      return process.env[CERT_AZ];
     case "ru":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/eeebd65b82764efc83e3e3435ba158f1/8e548063-aff9-4922-9770-9df87cf77ac8/V2hgWKhA_5cn6Io7yJpLfnwOc-6qF6vJ2LvEB8vo9sa0g1";
+      return process.env[CERT_RU];
     case "tr":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/aaf466f2055e45dda8349431fe00fd15/8e548063-aff9-4922-9770-9df87cf77ac8/V26lNxOj5UlLgIfj9VNhvOPAna3NtbCwOrb4SGi3dHjv81";
+      return process.env[CERT_TR];
     case "uk":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/7fc1099b822840308823650390768a66/8e548063-aff9-4922-9770-9df87cf77ac8/V24JebOvpo_x9Xy_YUbjunE3MYBg6zTNnxOWfGrpBP3AQ1";
+      return process.env[CERT_UK];
     case "es":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/47647d418b5440b9a82968fe0a6da4aa/8e548063-aff9-4922-9770-9df87cf77ac8/V2ZnQx37wWLxu1Bmquqaq96HYxWsIPA1HK2M250tFCu5w1";
+      return process.env[CERT_ES];
     case "pt-br":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/c1d1ac18d8e6478fabb3b1e12b026397/8e548063-aff9-4922-9770-9df87cf77ac8/V2i2AxMBrDxGMsRD-DvXn1O8DC433hJhKIxyh21prU-OM1";
+      return process.env[CERT_PT - BR];
     case "fa":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/e6a39e1de8254e6086d8e1f69915b95e/8e548063-aff9-4922-9770-9df87cf77ac8/V2aNtOeuRLf2vD6UxEdQD0z8I_Jd26geEr0Sc_8ecFT8g1";
+      return process.env[CERT_FA];
     case "ar":
-      return "https://onebbc.webhook.office.com/webhookb2/7e21788c-a256-484f-b88b-c90e9c4cc78c@0e587133-568e-44d6-801d-2266bc52e5cf/IncomingWebhook/d4402fe3b34c4006a5bcbc69083da7c3/8e548063-aff9-4922-9770-9df87cf77ac8/V2BjKG-SfYtDPOF24x5K-DaYbdv6Y0n6A4TxcU4lU1bRs1";
+      return process.env[CERT_AR];
       break;
   }
 };
