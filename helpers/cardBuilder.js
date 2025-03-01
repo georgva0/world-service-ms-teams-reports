@@ -17,7 +17,9 @@ const cardBuilder = (hydratedData) => {
         items: [
           {
             type: "TextBlock",
-            text: `Tags & Tools report | ${formatDateFromEpoch(Date.now()).date} ${formatDateFromEpoch(Date.now()).time}`,
+            text: `Tags & Tools report | ${
+              formatDateFromEpoch(Date.now()).date
+            } ${formatDateFromEpoch(Date.now()).time}`,
             wrap: true,
             spacing: "Large",
             separator: true,
@@ -81,7 +83,11 @@ const cardBuilder = (hydratedData) => {
                 {
                   type: "TextBlock",
                   horizontalAlignment: "Left",
-                  text: `Updated: ${formatDateFromEpoch(hydratedData[item].lastUpdated).date} ${formatDateFromEpoch(hydratedData[item].lastUpdated).time}`,
+                  text: `Updated: ${
+                    formatDateFromEpoch(hydratedData[item].lastUpdated).date
+                  } ${
+                    formatDateFromEpoch(hydratedData[item].lastUpdated).time
+                  }`,
                   wrap: true,
                   spacing: "Small",
                 },
@@ -90,7 +96,11 @@ const cardBuilder = (hydratedData) => {
                   horizontalAlignment: "Left",
                   text: `SEO optimised: ${hydratedData[item].seoOptimised}`,
                   wrap: true,
-                  color: `${hydratedData[item].seoOptimised === true ? "good" : "attention"}`,
+                  color: `${
+                    hydratedData[item].seoOptimised === true
+                      ? "good"
+                      : "attention"
+                  }`,
                   spacing: "Small",
                 },
               ],
@@ -130,7 +140,9 @@ const cardBuilder = (hydratedData) => {
                   type: "TextBlock",
                   text: hydratedData[item].formatTags.toString(),
                   wrap: true,
-                  color: `${hydratedData[item].formatTags === 1 ? "good" : "attention"}`,
+                  color: `${
+                    hydratedData[item].formatTags === 1 ? "good" : "attention"
+                  }`,
                   spacing: "Small",
                   weight: "Bolder",
                 },
@@ -138,7 +150,11 @@ const cardBuilder = (hydratedData) => {
                   type: "TextBlock",
                   text: hydratedData[item].motivationTags.toString(),
                   wrap: true,
-                  color: `${hydratedData[item].motivationTags === 1 ? "good" : "attention"}`,
+                  color: `${
+                    hydratedData[item].motivationTags === 1
+                      ? "good"
+                      : "attention"
+                  }`,
                   spacing: "Small",
                   weight: "Bolder",
                 },
@@ -146,7 +162,12 @@ const cardBuilder = (hydratedData) => {
                   type: "TextBlock",
                   text: hydratedData[item].aboutTags.toString(),
                   wrap: true,
-                  color: `${hydratedData[item].aboutTags > 2 && hydratedData[item].aboutTags < 6 ? "good" : "attention"}`,
+                  color: `${
+                    hydratedData[item].aboutTags > 2 &&
+                    hydratedData[item].aboutTags < 9
+                      ? "good"
+                      : "attention"
+                  }`,
                   spacing: "Small",
                   height: "stretch",
                   weight: "Bolder",
@@ -188,7 +209,7 @@ const cardBuilder = (hydratedData) => {
 
       // Success
       console.log("Done writing");
-    },
+    }
   );
 
   return { language, formattedCardPayload };

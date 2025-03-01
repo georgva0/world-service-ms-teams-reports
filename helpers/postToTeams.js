@@ -7,16 +7,16 @@ const postToTeams = async (payload) => {
 
   try {
     const res = await axios.post(webhookUrl, {
-      "type": "message",
-      "attachments": [
-          {
-              "contentType": "application/vnd.microsoft.card.adaptive",
-              "contentUrl": null,
-              "content": payload.formattedCardPayload
-          }
-      ]
+      type: "message",
+      attachments: [
+        {
+          contentType: "application/vnd.microsoft.card.adaptive",
+          contentUrl: null,
+          content: payload.formattedCardPayload,
+        },
+      ],
     });
-    console.log(res.statusText);
+    console.log(res);
   } catch (error) {
     console.log(error);
   }
