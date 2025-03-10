@@ -36,7 +36,10 @@
     "es",
     "pt-br",
     "fa",
-    "ar"
+    "ar",
+    "sr-latn",
+    "zh-hant",
+    "uz-cyrl"
   ],
   "languagesIds_": ["sw"]
 }
