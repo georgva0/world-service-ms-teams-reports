@@ -60,6 +60,8 @@ const findWebhook = (languageId) => {
       return process.env["CERT_UR"];
     case "az":
       return process.env["CERT_AZ"];
+    case "pl":
+      return process.env["CERT_PL"];
     case "ru":
       return process.env["CERT_RU"];
     case "tr":
